@@ -42,3 +42,16 @@ Das gerne ausprobieren: mit 4 Nullen geht der Editor z.B. schon in die Knie.
 - [https://github.com/openblockchains/awesome-blockchains/tree/master/blockchain.js](https://github.com/openblockchains/awesome-blockchains/tree/master/blockchain.js)
 - [https://github.com/openblockchains/awesome-blockchains](https://github.com/openblockchains/awesome-blockchains)
 
+## Ein eigener Coin auf der Ethereum Plattform
+
+### Präsentation
+
+[Hier gibt es die Präsentation & Anleitung als PDF](https://github.com/rofthedeep/blockchain-workshop/raw/master/ethereum_smart_contracts.pdf)
+
+### Benötigte Tools
+
+- Eine aktuelle Nodejs Version (https://nodejs.org/en/)
+- Ganache Blockchain Simulator (http://truffleframework.com/ganache/)
+- Metamask Browser Wallet (https://metamask.io/)
+
+
