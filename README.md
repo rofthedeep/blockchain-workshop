@@ -54,4 +54,41 @@ Das gerne ausprobieren: mit 4 Nullen geht der Editor z.B. schon in die Knie.
 - Ganache Blockchain Simulator (http://truffleframework.com/ganache/)
 - Metamask Browser Wallet (https://metamask.io/)
 
+### Schritt für Schritt Anleitung
 
+* Führt `$ npm install -g truffle` im Terminal aus
+* Erstellt euch einen Projektordner und wechselt mit `cd` in diesen
+* Führt in diesem Ordner `truffle unbox toxin20/maincoin-box` aus, um euch den benötigten Projektcode zu ziehen.
+* Mit `truffle compile` werden die Smart Contracts kompiliert
+* Startet nun Ganache, um bei euch lokal auf dem Rechner eine Blockchain laufen zu lassen
+* `truffle migrate` deployed den MainCoin Smart Contract auf eure lokale Blockchain. Danach sollte euch Ganache unter Current Block die Zahl 4 anzeigen (dies sind die Transaktion vom Contract Deployment)
+* Mit `npm run dev` startet ihr den lokalen Webserver. Unter http://localhost:3000 ist anschließend das MainCoin Web Wallet zu erreichen.
+* Nun müsst ihr noch Metamask in eurem Browser einrichten. Wählt im ersten Bildschirm von Metamask "Import existing DEN" aus, um den Seed zu importieren, den Ganache euch unter "Mnemonic" gibt. 
+
+![Imgur](https://i.imgur.com/80NqxEg.png)
+
+![Imgur](https://i.imgur.com/WfVVioR.png)
+
+* Seed reinkopieren und ein Passwort vergeben
+
+![Imgur](https://i.imgur.com/sJdSoAc.png)
+
+* Im nächsten Schritt müssen wir Metamask statt mit dem richtigen Ethereum Hauptnetzwerk mit eurer lokalen Ganache Blockchain Instanz verbinden (Netzwerk "Custom RPC" auswählen)
+
+![Imgur](https://i.imgur.com/Tg7yVrg.png)
+
+* Adresse einfügen und "Save" klicken
+
+![Imgur](https://i.imgur.com/KX6DVny.png)
+
+* Wenn alles geklappt hat seid ihr mit eurer lokalen Blockchain verbunden und eure Balance sollte irgendwas zwischen 99 und 100 ETH sein.
+
+![Imgur](https://i.imgur.com/7kIHIdG.png)
+
+* Eine Aktualisierung des Web Wallets unter http://localhost:3000 sollte euch nun eure MainCoin Balance anzeigen. Ihr könnt das Wallet nutzen, um MainCoins auf der (simulierten) Blockchain hin und her zu schicken.
+
+![Imgur](https://i.imgur.com/1P4l6Wr.png)
+
+### Nächste Schritte
+
+Als nächstes könntet ihr zum Testen in einem echten Netzwerk den Smart Contract zum Beispiel auf das Ropsten Test Network deployen. 
