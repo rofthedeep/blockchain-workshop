@@ -1,38 +1,6 @@
 # Blockchain Workshop
 
-## To-Dos
-
-- Dienstag Abend per Eventbrite rausschicken
-
-## Tools for Livecoding
-
-- https://glitch.com/ -> remix funcktion = fork
-- https://jsfiddle.net/
-- https://remix.ethereum.org/ (für Ethereum)
-
-## Bestellung
-
-- Kasten Wasser
-- Kasten Apfelschorle
-- Kasten Bier
-- Kasten Mate
-
-## Benötigte Tools
-
-### Metamask
-
-- anmelden (einaliger Token)
-- dann bekommt man dort eine Adresse und kann 
-- dann kann man dorthin Test-Ether überweisen
-
-
-## Einleitung Bitcoin allgemein
-
-[Jonas]
-
 ## Die Blockchain Technology verstehen 
-
-[Tim]
 
 ### Wie funktioniert das Grundprinzip hinter einer Blockchain
 
@@ -65,14 +33,9 @@ Das gerne ausprobieren: mit 4 Nullen geht der Editor z.B. schon in die Knie.
 - Privater Schlüssel an Block: Wem gehört was?
 - Contracts: Verträge auf Basis der Blockchain
 
-Da das Grundprinzip jetzt klar ist, überspringen wir die implementierung der grundlegenden Technologie. Jonas zeigt die weiteren Bestandteile auf Basis von Ethereum.
-
 ### Vorbereiteter Test Code
 
-[https://runkit.com/embed/lnc197cy1pmw](https://runkit.com/embed/lnc197cy1pmw)
-[https://runkit.com/embed/lnc197cy1pmw](https://runkit.com/embed/lnc197cy1pmw)
-[https://npm.runkit.com/npm](https://npm.runkit.com/npm)
-[https://codesandbox.io/s/kmwmz353r3](https://codesandbox.io/s/kmwmz353r3)
+- [https://codesandbox.io/s/kmwmz353r3](https://codesandbox.io/s/kmwmz353r3)
 
 ### Quellen
 
